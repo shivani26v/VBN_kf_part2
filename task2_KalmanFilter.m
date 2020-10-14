@@ -1,7 +1,7 @@
 % Initialisation
 
-X_estimated(:,1) = X_true(:,1);
-P_updated(:,:,1) = 10*R; % randomly assumed for now
+X_estimated(:,1) = X_true(:,1); %used because our first prediction could be practically anything
+P_updated(:,:,1) = 10*R; % randomly assumed observation covariance for now
 
 %kalman filter
 
